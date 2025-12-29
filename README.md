@@ -7,6 +7,8 @@
 
 > **A professional-grade, multi-indicator conviction scoring system that doesn't just tell you WHAT to do—it tells you HOW CONFIDENT to be.**
 
+> 📁 **Simple Structure:** All files are in the root directory - no subfolders to navigate!
+
 ---
 
 ## 📊 What Is This?
@@ -88,12 +90,12 @@ Result: HIGH CONFIDENCE BUY SIGNAL
 
 | File | Description |
 |------|-------------|
-| **[INSTALLATION.md](docs/INSTALLATION.md)** | 5-minute setup guide with checklists |
-| **[Ultimate_BuySell_Confirmation.ts](src/Ultimate_BuySell_Confirmation.ts)** | Main upper study (paste into TOS) |
-| **[Ultimate_BuySell_ConvictionScore.ts](src/Ultimate_BuySell_ConvictionScore.ts)** | Lower study for score visualization |
-| **[QUICK_REFERENCE.md](docs/QUICK_REFERENCE.md)** | One-page cheat sheet (print this!) |
-| **[DOCUMENTATION.md](docs/DOCUMENTATION.md)** | Comprehensive 40+ page guide |
-| **[ADVANCED_CUSTOMIZATION.md](docs/ADVANCED_CUSTOMIZATION.md)** | For power users & developers |
+| **[INSTALLATION.md](INSTALLATION.md)** | 5-minute setup guide with checklists |
+| **[Ultimate_BuySell_Confirmation.ts](Ultimate_BuySell_Confirmation.ts)** | Main upper study (paste into TOS) |
+| **[Ultimate_BuySell_ConvictionScore.ts](Ultimate_BuySell_ConvictionScore.ts)** | Lower study for score visualization |
+| **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** | One-page cheat sheet (print this!) |
+| **[DOCUMENTATION.md](DOCUMENTATION.md)** | Comprehensive 40+ page guide |
+| **[ADVANCED_CUSTOMIZATION.md](ADVANCED_CUSTOMIZATION.md)** | For power users & developers |
 
 ---
 
@@ -109,17 +111,17 @@ cd tos-ultimate-buysell
 
 **In ThinkOrSwim:**
 1. Open **Studies** → **Edit Studies** → **Create**
-2. Copy/paste code from `src/Ultimate_BuySell_Confirmation.ts`
+2. Copy/paste code from `Ultimate_BuySell_Confirmation.ts`
 3. Name it: "Ultimate Buy/Sell"
 4. Click **OK** and **Apply**
 
 **Optional Lower Study:**
 1. Click **Add Study** below chart → **Create**
-2. Copy/paste code from `src/Ultimate_BuySell_ConvictionScore.ts`
+2. Copy/paste code from `Ultimate_BuySell_ConvictionScore.ts`
 3. Name it: "Conviction Score"
 4. Click **OK**
 
-📖 **Detailed instructions:** [INSTALLATION.md](docs/INSTALLATION.md)
+📖 **Detailed instructions:** [INSTALLATION.md](INSTALLATION.md)
 
 ### 2. Configuration
 
@@ -137,7 +139,7 @@ cd tos-ultimate-buysell
 - Paper trade to understand the system
 - Track which indicators work best for your instruments
 
-📖 **Full guide:** [DOCUMENTATION.md](docs/DOCUMENTATION.md)
+📖 **Full guide:** [DOCUMENTATION.md](DOCUMENTATION.md)
 
 ---
 
@@ -198,7 +200,7 @@ Focus: SuperTrend, VWAP, EMAs
 Style: Multi-day holds, quality over quantity
 ```
 
-📖 **More strategies:** [DOCUMENTATION.md](docs/DOCUMENTATION.md#trading-strategies)
+📖 **More strategies:** [DOCUMENTATION.md](DOCUMENTATION.md#trading-strategies)
 
 ---
 
@@ -228,7 +230,7 @@ Signal Strength: ⭐⭐⭐⭐
 Action: Enter long at VWAP reclaim
 ```
 
-📖 **All setups:** [QUICK_REFERENCE.md](docs/QUICK_REFERENCE.md#high-probability-setups)
+📖 **All setups:** [QUICK_REFERENCE.md](QUICK_REFERENCE.md#high-probability-setups)
 
 ---
 
@@ -257,7 +259,7 @@ def macd_score = if useMACD then
 def total_score = st_score + vwap_score + ... + macd_score;
 ```
 
-📖 **Advanced customization:** [ADVANCED_CUSTOMIZATION.md](docs/ADVANCED_CUSTOMIZATION.md)
+📖 **Advanced customization:** [ADVANCED_CUSTOMIZATION.md](ADVANCED_CUSTOMIZATION.md)
 
 ---
 
@@ -266,10 +268,10 @@ def total_score = st_score + vwap_score + ... + macd_score;
 | Document | Purpose | Read Time |
 |----------|---------|-----------|
 | **[README.md](README.md)** | You are here! Overview & quick start | 5 min |
-| **[INSTALLATION.md](docs/INSTALLATION.md)** | Setup guide with troubleshooting | 5 min |
-| **[QUICK_REFERENCE.md](docs/QUICK_REFERENCE.md)** | One-page trading cheat sheet | 3 min |
-| **[DOCUMENTATION.md](docs/DOCUMENTATION.md)** | Complete system guide | 30 min |
-| **[ADVANCED_CUSTOMIZATION.md](docs/ADVANCED_CUSTOMIZATION.md)** | Modification & extension guide | 20 min |
+| **[INSTALLATION.md](INSTALLATION.md)** | Setup guide with troubleshooting | 5 min |
+| **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** | One-page trading cheat sheet | 3 min |
+| **[DOCUMENTATION.md](DOCUMENTATION.md)** | Complete system guide | 30 min |
+| **[ADVANCED_CUSTOMIZATION.md](ADVANCED_CUSTOMIZATION.md)** | Modification & extension guide | 20 min |
 | **[CHANGELOG.md](CHANGELOG.md)** | Version history | 2 min |
 | **[CONTRIBUTING.md](CONTRIBUTING.md)** | How to contribute | 5 min |
 
@@ -382,8 +384,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 💬 Community & Support
 
 ### Questions?
-1. Check the [DOCUMENTATION.md](docs/DOCUMENTATION.md)
-2. Review [INSTALLATION.md](docs/INSTALLATION.md) troubleshooting
+1. Check the [DOCUMENTATION.md](DOCUMENTATION.md)
+2. Review [INSTALLATION.md](INSTALLATION.md) troubleshooting
 3. Search existing [Issues](https://github.com/yourusername/tos-ultimate-buysell/issues)
 4. Open a new issue with the `question` label
 
@@ -468,9 +470,9 @@ If you find this useful, please ⭐ star this repository and share it with other
 
 ## 📞 Quick Links
 
-- **[Installation Guide](docs/INSTALLATION.md)** - Get started in 5 minutes
-- **[Quick Reference](docs/QUICK_REFERENCE.md)** - Cheat sheet for trading
-- **[Full Documentation](docs/DOCUMENTATION.md)** - Complete system guide
+- **[Installation Guide](INSTALLATION.md)** - Get started in 5 minutes
+- **[Quick Reference](QUICK_REFERENCE.md)** - Cheat sheet for trading
+- **[Full Documentation](DOCUMENTATION.md)** - Complete system guide
 - **[Report Bug](https://github.com/yourusername/tos-ultimate-buysell/issues/new?labels=bug)** - Found an issue?
 - **[Request Feature](https://github.com/yourusername/tos-ultimate-buysell/issues/new?labels=enhancement)** - Have an idea?
 - **[Discussions](https://github.com/yourusername/tos-ultimate-buysell/discussions)** - Share & learn
