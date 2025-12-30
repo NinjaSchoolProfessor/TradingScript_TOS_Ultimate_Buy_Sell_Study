@@ -101,12 +101,6 @@ Result: HIGH CONFIDENCE BUY SIGNAL
 
 ### 1. Installation (5 minutes)
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/tos-ultimate-buysell.git
-cd tos-ultimate-buysell
-```
-
 **In ThinkOrSwim:**
 1. Open **Studies** → **Edit Studies** → **Create**
 2. Copy/paste code from `Ultimate_BuySell_Confirmation.ts`
