@@ -373,30 +373,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 💬 Community & Support
-
-### Questions?
-1. Check the [DOCUMENTATION.md](DOCUMENTATION.md)
-2. Review [INSTALLATION.md](INSTALLATION.md) troubleshooting
-3. Search existing [Issues](https://github.com/yourusername/tos-ultimate-buysell/issues)
-4. Open a new issue with the `question` label
-
-### Found a Bug?
-1. Check if it's already reported in [Issues](https://github.com/yourusername/tos-ultimate-buysell/issues)
-2. If not, open a new issue with:
-   - Steps to reproduce
-   - Expected vs. actual behavior
-   - Screenshots if applicable
-   - Your TOS version
-
-### Want to Share Your Results?
-- Open a discussion in [Discussions](https://github.com/yourusername/tos-ultimate-buysell/discussions)
-- Share your custom configurations
-- Post your trading insights
-- Help others learn
-
----
-
 ## 🎯 Roadmap
 
 ### Version 1.1 (Planned)
@@ -410,20 +386,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Sentiment integration (news, social)
 - [ ] Mobile app companion
 - [ ] Real-time performance analytics
-
-**Have ideas?** Open a [feature request](https://github.com/yourusername/tos-ultimate-buysell/issues/new?labels=enhancement)!
-
----
-
-## 🏆 Success Stories
-
-> "After using this system for 3 months, my win rate increased from 52% to 68%. The conviction scoring helped me avoid low-quality setups." — Day Trader
-
-> "The transparency of seeing which indicators are contributing is game-changing. I now understand WHY I'm taking a trade, not just that I should." — Swing Trader
-
-> "I added my own indicators following the customization guide. The modular architecture made it painless." — Developer
-
-**Share your story:** Open a discussion!
 
 ---
 
@@ -454,26 +416,9 @@ This isn't just another indicator. It's a **complete trading system** that:
 
 ---
 
-## ⭐ Star This Repo
-
-If you find this useful, please ⭐ star this repository and share it with other traders!
-
----
-
-## 📞 Quick Links
-
-- **[Installation Guide](INSTALLATION.md)** - Get started in 5 minutes
-- **[Quick Reference](QUICK_REFERENCE.md)** - Cheat sheet for trading
-- **[Full Documentation](DOCUMENTATION.md)** - Complete system guide
-- **[Report Bug](https://github.com/yourusername/tos-ultimate-buysell/issues/new?labels=bug)** - Found an issue?
-- **[Request Feature](https://github.com/yourusername/tos-ultimate-buysell/issues/new?labels=enhancement)** - Have an idea?
-- **[Discussions](https://github.com/yourusername/tos-ultimate-buysell/discussions)** - Share & learn
-
----
-
 <div align="center">
 
-**Made with ❤️ for traders who value conviction over guesswork**
+**Made for traders who value conviction over guesswork**
 
 [⬆ Back to Top](#-ultimate-buysell-confirmation-system-for-thinkorswim)
 
