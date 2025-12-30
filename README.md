@@ -7,8 +7,6 @@
 
 > **A professional-grade, multi-indicator conviction scoring system that doesn't just tell you WHAT to do—it tells you HOW CONFIDENT to be.**
 
-> 📁 **Simple Structure:** All files are in the root directory - no subfolders to navigate!
-
 ---
 
 ## 📊 What Is This?
